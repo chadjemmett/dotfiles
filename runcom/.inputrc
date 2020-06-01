@@ -1,0 +1,8 @@
+# Maker tab completion ignore case
+set completion-ignore-case on
+
+# list all matches in case multiple possible completions are possible
+
+set show-all-if-ambiguous on
+
+
