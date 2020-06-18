@@ -16,4 +16,12 @@ In order to get a sym link from .bash_profile to the home directory you have to 
 
 Copy the .vim file into the home directory.
     This has all the plugins and stuff.
-then create a sym link to the `.vimrc` file in the `.dotfiles/vim` directory.
+then create a sym link to the `.vimrc` file in the `.dotfiles/runcom/` directory.
+
+
+## runcom.
+    Create sym links with this code:
+
+`ln -sv ~/.dotfiles/runcom/.bash_profile`
+`ln -sv ~/.dotfiles/runcom/.inputrc`
+`ln -sv ~/.dotfiles/runcom/.vimrc`
