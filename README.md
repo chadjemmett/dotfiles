@@ -25,3 +25,23 @@ then create a sym link to the `.vimrc` file in the `.dotfiles/runcom/` directory
 `ln -sv ~/.dotfiles/runcom/.bash_profile`
 `ln -sv ~/.dotfiles/runcom/.inputrc`
 `ln -sv ~/.dotfiles/runcom/.vimrc`
+
+
+
+## How to run the bootstrap script.
+
+
+Make sure the script is in the home directory:
+
+`cp .dotfiles/bootstrap.sh ~/`
+
+Make sure the script has execute permissions:
+
+`chmod +x /path/to/bootstrap.sh`
+
+Then run the script:
+
+`./bootstrap.sh`
+
+
+
