@@ -51,7 +51,7 @@ set clipboard=unnamed
 " set list lcs=tab:\|\
 " set textwidth=80
 let g:indent_guides_start_level = 1
-execute pathogen#infect()
+" execute pathogen#infect()
 " Don't write backup file if vim is being called by "crontab -e"
 au BufWrite /private/tmp/crontab.* set nowritebackup
 " Don't write backup file if vim is being called by "chpass"
