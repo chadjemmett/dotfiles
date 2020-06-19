@@ -45,3 +45,16 @@ Then run the script:
 
 
 
+What I need when setting up a new system. 
+    `.bash_profile`
+    `.vimrc`
+    `.vim` file and all the plugins.
+    `.inputrc`
+    The correct python version.
+    The current vim version.
+    Pip.
+    virtualenv
+    virtualenv wrapper
+    homebrew
+
+
