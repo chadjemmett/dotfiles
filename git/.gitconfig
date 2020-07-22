@@ -3,3 +3,5 @@
 # Please adapt and uncomment the following lines:
 	name = Chad Jemmett
     email = cjemmett@wehco.com
+[core]
+	excludesfile = /Users/cjem/.gitignore_global
