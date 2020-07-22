@@ -16,6 +16,17 @@ link () {
     if [ "$resp" = 'y' -o "$resp" = 'Y' ]
     then
         echo "You pressed yes."
+        ln -sv ~/.dotfiles/runcom/.bash_profile
+        echo "Linked .bash_profle"
+        ln -sv ~/.dotfiles/runcom/.inputrc
+        echo "Linked .inputrc"
+        ln -sv ~/.dotfiles/runcom/.vimrc
+        echo "Linked .vimrc"
+        ln -sv ~/.dotfiles/git/.gitconfig
+        echo "Linked .gitconfig"
+        ln -sv ~/.dotfiles/git/.gitignore_global
+        echo "Linked .gitignore_global"
+
     else
         echo "You pressed N. So we'll shut down"
     fi
