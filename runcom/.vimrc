@@ -40,7 +40,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 "nmap ff :w<CR>:!ruby %<CR>
-nmap ff :w<CR>:!clear python3 %<CR>
+nmap ff :w<CR>:!clear python %<CR>
 "nmap ff :w<CR>:!node %<CR>
 :map <silent> <f5> :!open %<CR>
 " nmap ff :w<CR>:!less-watch-compiler --run-once less css index.less<CR>

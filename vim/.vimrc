@@ -39,10 +39,13 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+" nmap ff :w<CR> :!clear ; python3 %<CR>
+" autocmd Filetype python nmap ff :echo &filetype 
+" autocmd FileType python nmap ff :w<CR>:!clear ; python3 %<CR>
 "nmap ff :w<CR>:!ruby %<CR>
-nmap ff :w<CR>:!clear python3 %<CR>
+" nmap ff :w<CR>:!python3 %<CR>
 "nmap ff :w<CR>:!node %<CR>
-:map <silent> <f5> :!open %<CR>
+" :map <silent> <f5> :!open %<CR>  This opens the file in the default text editor, Not sure why I added this.
 " nmap ff :w<CR>:!less-watch-compiler --run-once less css index.less<CR>
 "nmap ff :w<CR>:!/Applications/love.app/Contents/MacOs/love ./ %<CR>
 "nmap ff :w<CR>:!gcc -o myprog % && ./myprog %<CR>
