@@ -53,4 +53,28 @@ What I need when setting up a new system.
     virtualenv wrapper
     homebrew
 
+Steps to setting up a new system
+================================
+
+1. Install git, manually
+2. Install brew via script
+3. Install pyenv script
+4. Install the latest python
+5. Install vim with brew
+6. Install the .dot files.
+7. Create sym links
+8. install pyenv-virutalenv with brew
+9. install any other versions of python I need with pyenv.
+10. Install postgresql
+11. Install Postman.
+12. Install Moom.
+13. Install 1password
+14. OpenVPN
+15. Download Docker
+16. Install Cyberduck
+17. Install Chrome
+18. Install Firefox
+19. Install VSCode
+20. Install Slack
+21. Install Yarn
 
