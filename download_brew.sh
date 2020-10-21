@@ -12,3 +12,18 @@ else
     brew update
 fi
 
+
+Programs=(moon-buggy postgresql pyenv nethack)
+
+for i in "${Programs[@]}"; do
+    if brew ls --versions $i > /dev/null; then
+        echo "Already downloaded" $i
+    else
+        echo "Downloading: " $i
+        brew install $i
+    fi
+done
+
+
+
+# for i in Programs; do
