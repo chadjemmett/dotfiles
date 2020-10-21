@@ -48,3 +48,10 @@ link () {
 
 brew install pyenv-virutalenv
 brew install postgresql
+brew install sqlite
+brew install zlib
+brew install sdl2
+brew install xz
+brew install node
+brew install yarn
+
