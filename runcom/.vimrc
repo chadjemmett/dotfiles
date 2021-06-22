@@ -40,8 +40,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 "nmap ff :w<CR>:!ruby %<CR>
-nmap ff :w<CR>:!clear python %<CR>
-"nmap ff :w<CR>:!node %<CR>
+" nmap ff :w<CR><cR>
+nmap ff :w <CR>:!python3 %<CR>
 :map <silent> <f5> :!open %<CR>
 " nmap ff :w<CR>:!less-watch-compiler --run-once less css index.less<CR>
 "nmap ff :w<CR>:!/Applications/love.app/Contents/MacOs/love ./ %<CR>
@@ -56,3 +56,4 @@ let g:indent_guides_start_level = 1
 au BufWrite /private/tmp/crontab.* set nowritebackup
 " Don't write backup file if vim is being called by "chpass"
 au BufWrite /private/etc/pw.* set nowritebackup
+autocmd BufWritePost *.py call flake8#Flake8()

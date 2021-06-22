@@ -16,7 +16,7 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # alias ls='ls -lGH'        <-----This shows in list format, follow symlinks colorized
 
-alias ic="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
+alias ic="/Users/cjem/Library/Mobile Documents/com~apple~TextEdit/Documents"
 alias gs="git status"
 alias gp="git push"
 alias sm="./manage.py showmigrations --settings=wehcopromo.settings_local"
@@ -26,3 +26,7 @@ alias l="ls"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
