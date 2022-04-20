@@ -7,7 +7,8 @@
 
 echo "Checking for brew....."
 if brew ls --versions pyenv > /dev/null; then
-    echo "The package is installed"
+    echo -n "The package is installed"
+    echo 'brew --version'
 else
     echo "There is no pyenv"
 fi

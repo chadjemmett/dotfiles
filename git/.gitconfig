@@ -5,3 +5,5 @@
     email = cjemmett@wehco.com
 [core]
 	excludesfile = /Users/cjem/.gitignore_global
+[credendial "https://github.com"]
+	ceejaay = ceejaay
